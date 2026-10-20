@@ -14,22 +14,33 @@
       color: #f5f5f7;
     }
 
-    /* Header transparent avec logos */
+    /* Header statique (ne suit pas) */
     .header {
       width: 100%;
-      height: 120px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 20;
+      height: 130px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 40px;
+      gap: 60px;
       padding-top: 10px;
+      margin-bottom: 20px;
+      position: relative;
+      z-index: 5;
     }
 
-    .header a img {
+    .header-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #e8e8f5;
+      font-size: 15px;
+      font-weight: 600;
+      text-shadow: 0 0 8px rgba(0,0,0,0.7);
+      transition: 0.2s;
+    }
+
+    .header-item img {
       width: 70px;
       height: 70px;
       object-fit: contain;
@@ -37,12 +48,15 @@
       filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
     }
 
-    .header a img:hover {
+    .header-item:hover img {
       transform: scale(1.1);
       filter: drop-shadow(0 0 15px #6a4cff);
     }
 
-    /* Overlay sombre */
+    .header-item:hover {
+      color: #c7b3ff;
+    }
+
     .overlay {
       background: rgba(0, 0, 0, 0.55);
       width: 100%;
@@ -54,11 +68,10 @@
       z-index: 1;
     }
 
-    /* Rectangle central */
     .container {
       position: relative;
       max-width: 900px;
-      margin: 180px auto;
+      margin: 20px auto;
       background: rgba(15, 15, 20, 0.85);
       padding: 40px 35px;
       border-radius: 20px;
@@ -134,14 +147,15 @@
 
 <body>
 
-  <!-- Header avec logos -->
   <div class="header">
-    <a href="https://aurexalium.fr/" target="_blank">
+    <a class="header-item" href="https://aurexalium.fr/" target="_blank">
       <img src="logo_site.png" alt="Site Aurexalium">
+      Site Aurexalium
     </a>
 
-    <a href="https://discord.gg/ruSRV6nvex" target="_blank">
+    <a class="header-item" href="https://discord.gg/ruSRV6nvex" target="_blank">
       <img src="logo_discord.png" alt="Discord Aurexalium">
+      Discord Aurexalium
     </a>
   </div>
 
@@ -173,31 +187,31 @@
     </ul>
 
     <h2>ARTICLE 4 — PRODUITS NUMÉRIQUES</h2>
-    <p>Les avantages numériques peuvent être modifiés pour des raisons techniques ou d’équilibrage.</p>
+    <p>Les avantages numériques proposés sur la boutique Aurexalium sont des biens numériques utilisables uniquement en jeu. Leur contenu, leurs effets et leur disponibilité peuvent être modifiés pour des raisons techniques, d’équilibrage ou d’évolution du serveur, sans que cela n’ouvre droit à indemnisation.</p>
 
     <h2>ARTICLE 5 — PRIX</h2>
-    <p>Les prix sont indiqués en euros (€), toutes taxes comprises.</p>
+    <p>Les prix sont indiqués en euros (€), toutes taxes comprises (TTC), sauf mention contraire. Aurexalium se réserve le droit de modifier les prix à tout moment, mais les biens numériques seront facturés sur la base des tarifs en vigueur au moment de la validation de la commande.</p>
 
     <h2>ARTICLE 6 — PAIEMENT</h2>
-    <p>Le paiement est effectué via les moyens affichés sur la boutique.</p>
+    <p>Le paiement est effectué via les moyens sécurisés affichés sur la boutique (par exemple : carte bancaire, prestataire de paiement tiers, etc.). La commande est considérée comme définitive après validation du paiement par le prestataire concerné.</p>
 
     <h2>ARTICLE 7 — LIVRAISON</h2>
-    <p>Livraison automatique ou sous 24h maximum.</p>
+    <p>Les biens numériques sont livrés sous forme d’avantages en jeu sur le serveur Aurexalium. La livraison est en principe automatique après validation du paiement, ou dans un délai maximum de 24 heures en cas de traitement manuel ou de problème technique.</p>
 
     <h2>ARTICLE 8 — ABSENCE DE DROIT DE RÉTRACTATION</h2>
-    <p>Le droit de rétractation ne s’applique pas aux contenus numériques livrés immédiatement.</p>
+    <p>Conformément à la réglementation applicable aux contenus numériques fournis sur un support immatériel et dont l’exécution commence avant la fin du délai de rétractation, le Client reconnaît qu’il renonce à son droit de rétractation dès lors que la livraison des avantages en jeu a commencé.</p>
 
     <h2>ARTICLE 9 — RESPONSABILITÉ DU CLIENT</h2>
-    <p>Le Client est responsable de l’utilisation de ses avantages en jeu.</p>
+    <p>Le Client est responsable de l’utilisation de ses avantages en jeu et de la sécurité de son compte Minecraft. Toute infraction au règlement du serveur peut entraîner des sanctions (par exemple : suspension, bannissement) pouvant affecter l’utilisation des avantages achetés, sans remboursement possible.</p>
 
     <h2>ARTICLE 10 — RESPONSABILITÉ DU VENDEUR</h2>
-    <p>Aurexalium garantit la livraison des avantages numériques achetés.</p>
+    <p>Aurexalium s’engage à fournir les avantages numériques achetés dans les conditions prévues. En cas de problème technique empêchant la livraison, Aurexalium pourra proposer une solution alternative (réactivation, avantage équivalent, remboursement partiel ou total selon le cas).</p>
 
     <h2>ARTICLE 11 — DONNÉES PERSONNELLES</h2>
-    <p>Le Client peut demander la modification ou suppression de ses données via : Aurexalium@gmail.com.</p>
+    <p>Les données collectées dans le cadre des achats (identifiant Minecraft, adresse e-mail, historique des commandes, etc.) sont utilisées pour la gestion des commandes et le bon fonctionnement du serveur. Le Client peut demander la modification ou la suppression de ses données en contactant : Aurexalium@gmail.com.</p>
 
-    <h2>ARTICLE 12 — LITIGES</h2>
-    <p>Les présentes politiques sont régies par le droit français.</p>
+    <h2>ARTICLE 12 — LITIGES ET DROIT APPLICABLE</h2>
+    <p>Les présentes politiques de vente sont régies par le droit français. En cas de litige, une solution amiable sera recherchée en priorité entre Aurexalium et le Client. À défaut, les tribunaux compétents pourront être saisis conformément aux règles de droit commun.</p>
 
   </div>
 
