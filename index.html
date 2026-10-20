@@ -14,18 +14,32 @@
       color: #f5f5f7;
     }
 
-    /* Barre du haut identique au rectangle */
-    .topbar {
+    /* Header transparent avec logos */
+    .header {
       width: 100%;
-      height: 140px;
-      background: rgba(15, 15, 20, 0.85); /* même fond */
+      height: 120px;
       position: fixed;
       top: 0;
       left: 0;
-      z-index: 10;
-      backdrop-filter: blur(6px);
-      border-bottom: 1px solid rgba(106, 76, 255, 0.25); /* même contour violet */
-      box-shadow: 0 0 40px rgba(0,0,0,0.7); /* même glow */
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding-top: 10px;
+    }
+
+    .header a img {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      transition: 0.2s;
+      filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+    }
+
+    .header a img:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 15px #6a4cff);
     }
 
     /* Overlay sombre */
@@ -44,7 +58,7 @@
     .container {
       position: relative;
       max-width: 900px;
-      margin: 200px auto; /* décalé pour la barre */
+      margin: 180px auto;
       background: rgba(15, 15, 20, 0.85);
       padding: 40px 35px;
       border-radius: 20px;
@@ -120,7 +134,17 @@
 
 <body>
 
-  <div class="topbar"></div>
+  <!-- Header avec logos -->
+  <div class="header">
+    <a href="https://aurexalium.fr/" target="_blank">
+      <img src="logo_site.png" alt="Site Aurexalium">
+    </a>
+
+    <a href="https://discord.gg/ruSRV6nvex" target="_blank">
+      <img src="logo_discord.png" alt="Discord Aurexalium">
+    </a>
+  </div>
+
   <div class="overlay"></div>
 
   <div class="container">
