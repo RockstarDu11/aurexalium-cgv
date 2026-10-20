@@ -2,63 +2,70 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Conditions Générales de Vente – Aurexalium</title>
+  <title>Politique de Vente – Aurexalium</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root {
-      --bg: #0a0b10;
-      --card: #11131a;
-      --accent: #6a4cff;
-      --accent-light: #8b6dff;
-      --text: #f5f5f7;
-      --muted: #9fa4b8;
-    }
 
+  <style>
     body {
       margin: 0;
       font-family: "Segoe UI", system-ui, sans-serif;
-      background: linear-gradient(180deg, #141726 0%, #0a0b10 60%);
-      color: var(--text);
+      background: url("background.jpg") no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(4px);
+      color: #f5f5f7;
     }
 
-    header {
-      padding: 40px 20px 20px;
-      text-align: center;
-    }
-
-    header img {
-      width: 240px;
-      filter: drop-shadow(0 0 18px var(--accent));
-      border-radius: 10px;
-    }
-
-    header h1 {
-      margin: 20px 0 5px;
-      font-size: 32px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-    }
-
-    header p {
-      margin: 0;
-      font-size: 16px;
-      color: var(--muted);
+    .overlay {
+      background: rgba(0, 0, 0, 0.55);
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      backdrop-filter: blur(6px);
     }
 
     .container {
+      position: relative;
       max-width: 900px;
-      margin: 40px auto;
-      background: var(--card);
-      padding: 40px 30px;
-      border-radius: 18px;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.55);
-      border: 1px solid rgba(106, 76, 255, 0.18);
+      margin: 60px auto;
+      background: rgba(15, 15, 20, 0.85);
+      padding: 40px 35px;
+      border-radius: 20px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.7);
+      border: 1px solid rgba(106, 76, 255, 0.25);
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .logo img {
+      width: 260px;
+      filter: drop-shadow(0 0 20px #6a4cff);
+      border-radius: 10px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 10px;
+      color: #dcd9ff;
+      text-shadow: 0 0 12px #6a4cff;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #b7b7c9;
+      margin-bottom: 30px;
+      font-size: 16px;
     }
 
     h2 {
       margin-top: 32px;
       font-size: 20px;
-      color: var(--accent-light);
+      color: #c7b3ff;
       text-transform: uppercase;
       letter-spacing: 0.04em;
     }
@@ -66,7 +73,7 @@
     p, ul {
       font-size: 15px;
       line-height: 1.7;
-      color: var(--text);
+      color: #e8e8f5;
     }
 
     ul {
@@ -74,12 +81,12 @@
     }
 
     li::marker {
-      color: var(--accent-light);
+      color: #c7b3ff;
     }
 
     .divider {
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--accent-light), transparent);
+      background: linear-gradient(90deg, transparent, #c7b3ff, transparent);
       margin: 30px 0;
     }
 
@@ -87,24 +94,23 @@
       text-align: center;
       padding: 30px 20px;
       font-size: 13px;
-      color: var(--muted);
+      color: #b7b7c9;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <img src="logo.png" alt="Logo Aurexalium">
-    <h1>Conditions Générales de Vente</h1>
-    <p>Boutique officielle du serveur Minecraft Aurexalium</p>
-  </header>
+  <div class="overlay"></div>
 
   <div class="container">
 
-    <p><strong>Dernière mise à jour :</strong> 20/10/2026</p>
-    <p><strong>Serveur :</strong> play.aurexalium.fr</p>
-    <p><strong>Contact :</strong> Aurexalium@gmail.com</p>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Aurexalium">
+    </div>
+
+    <h1>Politique de Vente</h1>
+    <p class="subtitle">Boutique officielle du serveur Minecraft Aurexalium</p>
 
     <div class="divider"></div>
 
@@ -112,48 +118,42 @@
     <p>Aurexalium, serveur Minecraft communautaire, exploite une boutique de biens numériques (grades, points VIP, avantages en jeu) utilisables uniquement sur le serveur Aurexalium.</p>
 
     <h2>ARTICLE 2 — Objet</h2>
-    <p>Les présentes CGV encadrent la vente de biens numériques proposés sur la boutique Aurexalium. Ces biens n’ont aucune valeur réelle ou monétaire en dehors du serveur.</p>
+    <p>Les présentes politiques encadrent la vente de biens numériques proposés sur la boutique Aurexalium.</p>
 
     <h2>ARTICLE 3 — Accès au service</h2>
     <p>Pour effectuer un achat, le Client doit :</p>
     <ul>
       <li>posséder un compte Minecraft valide ;</li>
       <li>pouvoir se connecter au serveur Aurexalium ;</li>
-      <li>accepter et respecter le règlement du serveur.</li>
+      <li>respecter le règlement du serveur.</li>
     </ul>
 
     <h2>ARTICLE 4 — Produits numériques</h2>
-    <p>Les grades, points VIP et avantages numériques donnent accès à des fonctionnalités décrites sur la boutique. Aurexalium peut modifier ces avantages pour des raisons techniques, d’équilibrage ou de mise à jour, sans que cela n’ouvre droit à remboursement.</p>
+    <p>Les avantages numériques peuvent être modifiés pour des raisons techniques ou d’équilibrage.</p>
 
     <h2>ARTICLE 5 — Prix</h2>
-    <p>Les prix sont indiqués en euros (€), toutes taxes comprises. Aurexalium peut modifier ses tarifs à tout moment, sans impact sur les commandes déjà réglées.</p>
+    <p>Les prix sont indiqués en euros (€), toutes taxes comprises.</p>
 
     <h2>ARTICLE 6 — Paiement</h2>
-    <p>Le paiement est effectué via les moyens affichés sur la boutique (carte bancaire, PayPal, etc.). La commande n’est considérée comme valide qu’après confirmation du paiement.</p>
+    <p>Le paiement est effectué via les moyens affichés sur la boutique.</p>
 
-    <h2>ARTICLE 7 — Livraison des avantages</h2>
-    <p>Les avantages numériques sont livrés automatiquement ou dans un délai maximum de 24 heures après paiement. En cas de problème technique, le Client doit contacter le support avec preuve d’achat.</p>
+    <h2>ARTICLE 7 — Livraison</h2>
+    <p>Livraison automatique ou sous 24h maximum.</p>
 
     <h2>ARTICLE 8 — Absence de droit de rétractation</h2>
-    <p>Conformément à l’article L.221‑28 du Code de la consommation, le droit de rétractation ne s’applique pas aux contenus numériques fournis immédiatement après paiement ni aux services pleinement exécutés avant la fin du délai de rétractation.</p>
+    <p>Le droit de rétractation ne s’applique pas aux contenus numériques livrés immédiatement.</p>
 
     <h2>ARTICLE 9 — Responsabilité du client</h2>
-    <p>Le Client est responsable de la sécurité de son compte Minecraft, de l’utilisation de ses avantages en jeu et du respect du règlement du serveur. Aucun remboursement n’est possible en cas de sanction.</p>
+    <p>Le Client est responsable de l’utilisation de ses avantages en jeu.</p>
 
     <h2>ARTICLE 10 — Responsabilité du vendeur</h2>
-    <p>Aurexalium garantit la livraison des avantages numériques achetés. La responsabilité du serveur ne peut être engagée en cas de panne Internet du Client, de problème lié à son compte Minecraft ou de maintenance/mise à jour du serveur.</p>
+    <p>Aurexalium garantit la livraison des avantages numériques achetés.</p>
 
-    <h2>ARTICLE 11 — Fermeture du serveur</h2>
-    <p>En cas de fermeture définitive du serveur Aurexalium, aucun remboursement ne pourra être exigé.</p>
+    <h2>ARTICLE 11 — Données personnelles</h2>
+    <p>Le Client peut demander la modification ou suppression de ses données via : Aurexalium@gmail.com.</p>
 
-    <h2>ARTICLE 12 — Données personnelles (RGPD)</h2>
-    <p>Aurexalium collecte uniquement les données nécessaires au traitement des achats. Le Client peut demander la modification ou la suppression de ses données via : Aurexalium@gmail.com.</p>
-
-    <h2>ARTICLE 13 — Propriété intellectuelle</h2>
-    <p>Les visuels, logos, constructions et systèmes du serveur Aurexalium sont protégés. Toute reproduction non autorisée est interdite.</p>
-
-    <h2>ARTICLE 14 — Litiges</h2>
-    <p>Les présentes CGV sont régies par le droit français. En cas de litige, une solution amiable sera recherchée. À défaut, les tribunaux français seront compétents.</p>
+    <h2>ARTICLE 12 — Litiges</h2>
+    <p>Les présentes politiques sont régies par le droit français.</p>
 
   </div>
 
