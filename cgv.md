@@ -1,76 +1,112 @@
-# Conditions Générales de Vente — Aurexalium
-Dernière mise à jour : 20/10/2026
+<div align="center">
 
-## ARTICLE 1 – Identification du vendeur
-Aurexalium  
+# 📝 Conditions Générales de Vente  
+### **Aurexalium — Boutique Officielle**
+*Dernière mise à jour : 20/10/2026*
+
+---
+
+</div>
+
+## 🔰 ARTICLE 1 — Identification du vendeur
+**Aurexalium**  
 Serveur Minecraft communautaire  
-Email : Aurexalium@gmail.com  
-Adresse du serveur : play.aurexalium.fr
+📧 Email : Aurexalium@gmail.com  
+🕹️ Adresse du serveur : play.aurexalium.fr  
 
-## ARTICLE 2 – Objet
-Les présentes Conditions Générales de Vente (CGV) encadrent la vente de biens numériques proposés par Aurexalium, notamment les grades, points VIP et avantages en jeu.  
-Ces biens sont exclusivement utilisables sur le serveur Minecraft Aurexalium et n’ont aucune valeur réelle ou monétaire en dehors de celui‑ci.
+---
 
-## ARTICLE 3 – Accès au service
-Pour effectuer un achat, le Client doit :
-- posséder un compte Minecraft valide,
-- pouvoir se connecter au serveur Aurexalium,
-- accepter le règlement du serveur.
+## 🎯 ARTICLE 2 — Objet
+Les présentes CGV encadrent la vente de **biens numériques** proposés par Aurexalium :  
+grades, points VIP, avantages en jeu.  
+Ces biens sont utilisables **uniquement** sur le serveur Aurexalium.
 
-Aurexalium peut restreindre l’accès au serveur en cas de non‑respect du règlement.
+---
 
-## ARTICLE 4 – Produits et avantages numériques
-Les grades, points VIP et avantages numériques donnent accès à des fonctionnalités décrites sur la boutique.  
-Aurexalium peut modifier ces avantages à tout moment pour des raisons techniques, d’équilibrage ou de mise à jour.  
-Ces modifications n’ouvrent droit à aucun remboursement.
+## 🔐 ARTICLE 3 — Accès au service
+Pour acheter, le Client doit :  
+- posséder un compte Minecraft valide  
+- pouvoir se connecter au serveur  
+- accepter le règlement du serveur  
 
-## ARTICLE 5 – Prix
-Les prix sont indiqués en euros (€), toutes taxes comprises.  
-Aurexalium peut modifier ses tarifs à tout moment, sans impact sur les commandes déjà réglées.
+Aurexalium peut restreindre l’accès en cas de non‑respect du règlement.
 
-## ARTICLE 6 – Paiement
-Les moyens de paiement acceptés sont ceux affichés sur la boutique (carte bancaire, PayPal, etc.).  
-Le paiement est immédiat et intégral.  
-La commande n’est validée qu’après confirmation du paiement.
+---
 
-## ARTICLE 7 – Livraison des avantages
-Les avantages numériques sont livrés automatiquement ou dans un délai maximum de 24 heures après paiement.  
-En cas de problème technique, le Client doit contacter le support avec preuve d’achat.
+## ⭐ ARTICLE 4 — Produits numériques
+Les avantages donnent accès à des fonctionnalités décrites sur la boutique.  
+Ils peuvent être modifiés pour des raisons techniques ou d’équilibrage.  
+Aucun remboursement n’est possible en cas de modification.
 
-## ARTICLE 8 – Absence de droit de rétractation
-Conformément à l’article L.221‑28 du Code de la consommation, le droit de rétractation ne s’applique pas aux :
-- contenus numériques fournis immédiatement,
-- services pleinement exécutés avant la fin du délai de rétractation.
+---
 
-En achetant un grade ou des points VIP, le Client accepte la livraison immédiate et renonce à son droit de rétractation.
+## 💶 ARTICLE 5 — Prix
+Les prix sont indiqués en euros (€), TTC.  
+Ils peuvent être modifiés sans impact sur les commandes déjà payées.
 
-## ARTICLE 9 – Responsabilité du client
-Le Client est responsable :
-- de la sécurité de son compte Minecraft,
-- de l’utilisation de ses avantages en jeu,
-- du respect du règlement du serveur.
+---
 
-En cas de sanction (ban, mute, etc.), aucun remboursement ne peut être exigé.
+## 💳 ARTICLE 6 — Paiement
+Paiement immédiat via les moyens affichés (CB, PayPal…).  
+La commande est validée après confirmation du paiement.
 
-## ARTICLE 10 – Responsabilité du vendeur
-Aurexalium garantit la bonne livraison des avantages numériques achetés.  
-La responsabilité du serveur ne peut être engagée en cas :
-- de panne Internet du Client,
-- de problème lié au compte Minecraft du Client,
-- de maintenance ou mise à jour du serveur.
+---
 
-## ARTICLE 11 – Suspension ou fermeture du serveur
-En cas de fermeture définitive du serveur Aurexalium, aucun remboursement ne pourra être exigé, les biens numériques n’ayant pas de valeur réelle.
+## ⚡ ARTICLE 7 — Livraison
+Livraison automatique ou sous 24h maximum.  
+En cas de problème, le Client doit contacter le support avec preuve d’achat.
 
-## ARTICLE 12 – Données personnelles (RGPD)
-Aurexalium collecte uniquement les données nécessaires au traitement des achats : pseudo Minecraft, email, informations de paiement via prestataire sécurisé.  
-Le Client peut demander la suppression ou modification de ses données via Aurexalium@gmail.com.
+---
 
-## ARTICLE 13 – Propriété intellectuelle
-Le serveur Aurexalium, ses visuels, logos, contenus, constructions et systèmes sont protégés.  
-Toute reproduction ou exploitation non autorisée est interdite.
+## ❌ ARTICLE 8 — Absence de droit de rétractation
+Conformément à l’article L.221‑28 du Code de la consommation :  
+- pas de rétractation pour les contenus numériques livrés immédiatement  
+- pas de rétractation pour les services exécutés avant la fin du délai légal  
 
-## ARTICLE 14 – Litiges
-Les présentes CGV sont régies par le droit français.  
+L’achat implique renoncement au droit de rétractation.
+
+---
+
+## 👤 ARTICLE 9 — Responsabilité du client
+Le Client doit :  
+- sécuriser son compte Minecraft  
+- respecter le règlement  
+- ne pas revendre les avantages  
+
+Aucun remboursement en cas de sanction (ban, mute…).
+
+---
+
+## 🛡️ ARTICLE 10 — Responsabilité du vendeur
+Aurexalium garantit la livraison des avantages.  
+La responsabilité ne peut être engagée en cas :  
+- panne Internet du Client  
+- problème lié au compte Minecraft  
+- maintenance ou mise à jour du serveur  
+
+---
+
+## 🛑 ARTICLE 11 — Fermeture du serveur
+En cas de fermeture définitive du serveur, aucun remboursement ne pourra être exigé.
+
+---
+
+## 🔒 ARTICLE 12 — Données personnelles (RGPD)
+Aurexalium collecte uniquement les données nécessaires au traitement des achats.  
+Le Client peut demander modification ou suppression via :  
+📧 Aurexalium@gmail.com
+
+---
+
+## © ARTICLE 13 — Propriété intellectuelle
+Les visuels, logos, constructions et systèmes du serveur sont protégés.  
+Toute reproduction non autorisée est interdite.
+
+---
+
+## ⚖️ ARTICLE 14 — Litiges
+Les CGV sont régies par le droit français.  
 En cas de litige, une solution amiable sera recherchée.  
 À défaut, les tribunaux français seront compétents.
+
+---
