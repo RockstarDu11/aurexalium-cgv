@@ -11,10 +11,23 @@
       font-family: "Segoe UI", system-ui, sans-serif;
       background: url("background.jpg") no-repeat center center fixed;
       background-size: cover;
-      backdrop-filter: blur(4px);
       color: #f5f5f7;
     }
 
+    /* Bandeau gris foncé en haut */
+    .topbar {
+      width: 100%;
+      height: 140px;
+      background: rgba(20, 20, 20, 0.85);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    /* Overlay sombre sur le fond */
     .overlay {
       background: rgba(0, 0, 0, 0.55);
       width: 100%;
@@ -23,17 +36,20 @@
       top: 0;
       left: 0;
       backdrop-filter: blur(6px);
+      z-index: 1;
     }
 
+    /* Rectangle central */
     .container {
       position: relative;
       max-width: 900px;
-      margin: 60px auto;
+      margin: 200px auto; /* décalé pour ne pas passer sous la barre grise */
       background: rgba(15, 15, 20, 0.85);
       padding: 40px 35px;
       border-radius: 20px;
       box-shadow: 0 0 40px rgba(0,0,0,0.7);
       border: 1px solid rgba(106, 76, 255, 0.25);
+      z-index: 5;
     }
 
     .logo {
@@ -95,12 +111,15 @@
       padding: 30px 20px;
       font-size: 13px;
       color: #b7b7c9;
+      z-index: 5;
+      position: relative;
     }
   </style>
 </head>
 
 <body>
 
+  <div class="topbar"></div>
   <div class="overlay"></div>
 
   <div class="container">
@@ -114,13 +133,13 @@
 
     <div class="divider"></div>
 
-    <h2>ARTICLE 1 — Identification du vendeur</h2>
+    <h2>ARTICLE 1 — IDENTIFICATION DU VENDEUR</h2>
     <p>Aurexalium, serveur Minecraft communautaire, exploite une boutique de biens numériques (grades, points VIP, avantages en jeu) utilisables uniquement sur le serveur Aurexalium.</p>
 
-    <h2>ARTICLE 2 — Objet</h2>
+    <h2>ARTICLE 2 — OBJET</h2>
     <p>Les présentes politiques encadrent la vente de biens numériques proposés sur la boutique Aurexalium.</p>
 
-    <h2>ARTICLE 3 — Accès au service</h2>
+    <h2>ARTICLE 3 — ACCÈS AU SERVICE</h2>
     <p>Pour effectuer un achat, le Client doit :</p>
     <ul>
       <li>posséder un compte Minecraft valide ;</li>
@@ -128,31 +147,31 @@
       <li>respecter le règlement du serveur.</li>
     </ul>
 
-    <h2>ARTICLE 4 — Produits numériques</h2>
+    <h2>ARTICLE 4 — PRODUITS NUMÉRIQUES</h2>
     <p>Les avantages numériques peuvent être modifiés pour des raisons techniques ou d’équilibrage.</p>
 
-    <h2>ARTICLE 5 — Prix</h2>
+    <h2>ARTICLE 5 — PRIX</h2>
     <p>Les prix sont indiqués en euros (€), toutes taxes comprises.</p>
 
-    <h2>ARTICLE 6 — Paiement</h2>
+    <h2>ARTICLE 6 — PAIEMENT</h2>
     <p>Le paiement est effectué via les moyens affichés sur la boutique.</p>
 
-    <h2>ARTICLE 7 — Livraison</h2>
+    <h2>ARTICLE 7 — LIVRAISON</h2>
     <p>Livraison automatique ou sous 24h maximum.</p>
 
-    <h2>ARTICLE 8 — Absence de droit de rétractation</h2>
+    <h2>ARTICLE 8 — ABSENCE DE DROIT DE RÉTRACTATION</h2>
     <p>Le droit de rétractation ne s’applique pas aux contenus numériques livrés immédiatement.</p>
 
-    <h2>ARTICLE 9 — Responsabilité du client</h2>
+    <h2>ARTICLE 9 — RESPONSABILITÉ DU CLIENT</h2>
     <p>Le Client est responsable de l’utilisation de ses avantages en jeu.</p>
 
-    <h2>ARTICLE 10 — Responsabilité du vendeur</h2>
+    <h2>ARTICLE 10 — RESPONSABILITÉ DU VENDEUR</h2>
     <p>Aurexalium garantit la livraison des avantages numériques achetés.</p>
 
-    <h2>ARTICLE 11 — Données personnelles</h2>
+    <h2>ARTICLE 11 — DONNÉES PERSONNELLES</h2>
     <p>Le Client peut demander la modification ou suppression de ses données via : Aurexalium@gmail.com.</p>
 
-    <h2>ARTICLE 12 — Litiges</h2>
+    <h2>ARTICLE 12 — LITIGES</h2>
     <p>Les présentes politiques sont régies par le droit français.</p>
 
   </div>
