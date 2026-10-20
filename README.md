@@ -1,12 +1,9 @@
-# Aurexalium — Conditions Générales de Vente
+# 🌌 Aurexalium — Politique de Vente
 
-Ce dépôt contient les **Conditions Générales de Vente (CGV)** du serveur Minecraft Aurexalium.
+Bienvenue sur le dépôt officiel contenant la page légale de la boutique Aurexalium.
 
 ## 📄 Accès aux CGV
-Les CGV sont disponibles ici :
+➡️ https://rockstardu11.github.io/aurexalium-cgv
 
-[Consulter les CGV](https://rockstardu11.github.io/aurexalium-cgv/cgv.md)
-
-## ℹ️ À propos
-Ce dépôt est utilisé uniquement pour héberger les documents légaux du serveur Aurexalium.
-
+## 🛡️ À propos
+Ce dépôt est dédié à l’hébergement des documents légaux du serveur Minecraft Aurexalium.
